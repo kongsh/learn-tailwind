@@ -84,6 +84,10 @@
   .bg-pesto-900 {
     background-color: #1c180a;
   }
+
+  .border-pesto-300 {
+    border-color: #bbaf83;
+  }
 }
 
 /* 스타일 재사용 */
