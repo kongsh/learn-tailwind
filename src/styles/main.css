@@ -568,7 +568,7 @@ abbr[title] {
 }
 
 .button {
-  border-radius: 0.125rem;
+  border-radius: 0.1875rem;
   --tw-bg-opacity: 1;
   background-color: rgb(51 65 85 / var(--tw-bg-opacity));
   padding-left: 1rem;
@@ -664,7 +664,7 @@ abbr[title] {
 }
 
 .rounded-2xl {
-  border-radius: 1rem;
+  border-radius: 0.6833604574203491rem;
 }
 
 .rounded-full {
@@ -705,17 +705,15 @@ abbr[title] {
 }
 
 .font-suit {
-  font-family: "SUIT Variable";
+  font-family: SUIT Variable, sans-serif;
 }
 
 .text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+  font-size: 1.5rem;
 }
 
 .text-lg {
   font-size: 1.125rem;
-  line-height: 1.75rem;
 }
 
 .font-bold {
@@ -752,10 +750,6 @@ abbr[title] {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.filter {
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
 .border-pesto-300 {
   border-color: #bbaf83;
 }
@@ -778,7 +772,7 @@ body {
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 950px) {
   body {
     background: #e2e8f0;
   }
@@ -791,7 +785,7 @@ body {
   width: 290px;
   flex-direction: column;
   gap: 1.5rem;
-  border-radius: 1rem;
+  border-radius: 0.6833604574203491rem;
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   padding: 1.5rem;
@@ -838,8 +832,7 @@ body {
   }
   .avatar-card__caption {
     strong {
-      font-size: 1.875rem;
-      line-height: 2.25rem;
+      font-size: 1.5rem;
     }
     strong {
       --tw-text-opacity: 1;
@@ -847,7 +840,6 @@ body {
     }
     p {
       font-size: 1.125rem;
-      line-height: 1.75rem;
     }
     a {
       display: inline-block;
@@ -860,7 +852,7 @@ body {
       color: rgb(8 145 178 / var(--tw-text-opacity));
     }
     a:focus {
-      border-radius: 0.125rem;
+      border-radius: 0.1875rem;
     }
     a:focus {
       outline: 2px solid transparent;
@@ -899,7 +891,7 @@ body {
 }
 
 .focus\:rounded-sm:focus {
-  border-radius: 0.125rem;
+  border-radius: 0.1875rem;
 }
 
 .focus\:outline-none:focus {
