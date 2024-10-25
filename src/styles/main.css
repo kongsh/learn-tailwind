@@ -1031,6 +1031,11 @@ abbr[title] {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-violet-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(196 181 253 / var(--tw-bg-opacity));
+}
+
 .fill-tertiary-200 {
   fill: #e39042;
 }
