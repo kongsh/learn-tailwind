@@ -874,6 +874,10 @@ abbr[title] {
   grid-column-end: 2;
 }
 
+.row-span-2 {
+  grid-row: span 2 / span 2;
+}
+
 .m-10 {
   margin: 2.5rem;
 }
@@ -884,6 +888,10 @@ abbr[title] {
 
 .m-4 {
   margin: 1rem;
+}
+
+.m-5 {
+  margin: 1.25rem;
 }
 
 .my-10 {
@@ -907,6 +915,10 @@ abbr[title] {
 
 .ml-5 {
   margin-left: 1.25rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
 }
 
 .block {
@@ -1010,6 +1022,10 @@ abbr[title] {
   max-width: 5rem;
 }
 
+.max-w-screen-lg {
+  max-width: 950px;
+}
+
 .flex-1 {
   flex: 1 1 0%;
 }
@@ -1034,6 +1050,38 @@ abbr[title] {
           appearance: none;
 }
 
+.columns-5 {
+  -moz-columns: 5;
+       columns: 5;
+}
+
+.columns-2 {
+  -moz-columns: 2;
+       columns: 2;
+}
+
+.break-after-auto {
+  -moz-column-break-after: auto;
+       break-after: auto;
+}
+
+.break-after-column {
+  -moz-column-break-after: column;
+       break-after: column;
+}
+
+.grid-flow-row {
+  grid-auto-flow: row;
+}
+
+.grid-flow-col {
+  grid-auto-flow: column;
+}
+
+.grid-flow-col-dense {
+  grid-auto-flow: column dense;
+}
+
 .grid-cols-12 {
   grid-template-columns: repeat(12, minmax(0, 1fr));
 }
@@ -1048,6 +1096,18 @@ abbr[title] {
 
 .grid-cols-\[1fr_auto_auto\] {
   grid-template-columns: 1fr auto auto;
+}
+
+.grid-cols-5 {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
+.grid-rows-5 {
+  grid-template-rows: repeat(5, minmax(0, 1fr));
+}
+
+.grid-rows-2 {
+  grid-template-rows: repeat(2, minmax(0, 1fr));
 }
 
 .flex-row {
@@ -1168,6 +1228,10 @@ abbr[title] {
   border-width: 1px;
 }
 
+.border-t {
+  border-top-width: 1px;
+}
+
 .border-solid {
   border-style: solid;
 }
@@ -1184,6 +1248,11 @@ abbr[title] {
 .border-white {
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+
+.border-t-slate-500 {
+  --tw-border-opacity: 1;
+  border-top-color: rgb(100 116 139 / var(--tw-border-opacity));
 }
 
 .bg-cyan-200 {
@@ -1253,6 +1322,11 @@ abbr[title] {
 .bg-Red-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(229 9 20 / var(--tw-bg-opacity));
+}
+
+.bg-gray-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
 }
 
 .bg-\[url\(\'\/src\/assets\/icon\/checkbox-circle-unchecked\.svg\'\)\] {
@@ -1345,6 +1419,10 @@ abbr[title] {
   padding-left: 2.5rem;
 }
 
+.pt-5 {
+  padding-top: 1.25rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1371,6 +1449,14 @@ abbr[title] {
 
 .font-bold {
   font-weight: 700;
+}
+
+.leading-4 {
+  line-height: 1rem;
+}
+
+.leading-5 {
+  line-height: 1.25rem;
 }
 
 .text-black {
@@ -1416,6 +1502,16 @@ abbr[title] {
 .text-Gray-300 {
   --tw-text-opacity: 1;
   color: rgb(172 172 172 / var(--tw-text-opacity));
+}
+
+.text-slate-500 {
+  --tw-text-opacity: 1;
+  color: rgb(100 116 139 / var(--tw-text-opacity));
+}
+
+.text-gray-900 {
+  --tw-text-opacity: 1;
+  color: rgb(17 24 39 / var(--tw-text-opacity));
 }
 
 .no-underline {
@@ -1538,6 +1634,21 @@ abbr[title] {
 }
 
 @media (min-width: 640px) {
+  .sm\:columns-3 {
+    -moz-columns: 3;
+         columns: 3;
+  }
+
+  .sm\:break-after-auto {
+    -moz-column-break-after: auto;
+         break-after: auto;
+  }
+
+  .sm\:break-after-column {
+    -moz-column-break-after: column;
+         break-after: column;
+  }
+
   .sm\:bg-slate-500 {
     --tw-bg-opacity: 1;
     background-color: rgb(100 116 139 / var(--tw-bg-opacity));
@@ -1551,6 +1662,21 @@ abbr[title] {
 
   .md\:w-\[500px\] {
     width: 500px;
+  }
+
+  .md\:columns-4 {
+    -moz-columns: 4;
+         columns: 4;
+  }
+
+  .md\:break-after-auto {
+    -moz-column-break-after: auto;
+         break-after: auto;
+  }
+
+  .md\:break-after-column {
+    -moz-column-break-after: column;
+         break-after: column;
   }
 
   .md\:grid-cols-\[120px_1fr\] {
@@ -1592,6 +1718,16 @@ abbr[title] {
 
   .lg\:max-w-36 {
     max-width: 9rem;
+  }
+
+  .lg\:columns-5 {
+    -moz-columns: 5;
+         columns: 5;
+  }
+
+  .lg\:break-after-auto {
+    -moz-column-break-after: auto;
+         break-after: auto;
   }
 
   .lg\:gap-3 {
