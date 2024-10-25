@@ -3,3 +3,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.state-button {
+  @apply bg-no-repeat bg-cover bg-center rounded-full size-12 relative;
+
+  .state-text {
+    @apply inline-block size-4 absolute right-0 bottom-0 border-2 border-white rounded-full;
+  }
+}
+
+.state-online {
+  .state-text {
+    @apply bg-Green-600;
+  }
+}
+
+.state-offline {
+  .state-text {
+    @apply bg-Gray-600;
+  }
+}
