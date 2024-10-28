@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ko-KR">
   <head>
     <meta charset="UTF-8" />
@@ -8,33 +8,59 @@
     <link rel="stylesheet" href="/src/styles/main.css" />
   </head>
   <body class="bg-slate-300 font-suit">
-    <header class="py-2 px-6 lg:px-5 lg:py-10 bg-black grid grid-cols-[1fr_auto_auto] gap-2 lg:gap-3">
-      <h1 class="self-center ml-5">
+    <header
+      class="grid grid-cols-[1fr_auto_auto] gap-2 bg-black px-6 py-2 lg:gap-3 lg:px-5 lg:py-10"
+    >
+      <h1 class="ml-5 self-center">
         <a href="/" class="inline-block max-w-20 lg:max-w-36">
           <picture>
-            <source srcset="/src/assets/logo/netflix@1x.png 1x, /src/assets/logo/netflix@2x.png 2x" type="image/webp" />
-            <img src="/src/assets/logo/netflix@1x.png" srcset="/src/assets/logo/netflix@2x.png 2x" alt="NETFLIX" />
+            <source
+              srcset="
+                /src/assets/logo/netflix@1x.png 1x,
+                /src/assets/logo/netflix@2x.png 2x
+              "
+              type="image/webp"
+            />
+            <img
+              src="/src/assets/logo/netflix@1x.png"
+              srcset="/src/assets/logo/netflix@2x.png 2x"
+              alt="NETFLIX"
+            />
           </picture>
         </a>
       </h1>
 
-      <div class="self-center inline-flex text-Gray-300 items-center relative border-solid border border-white rounded-default">
-        <svg class="size-3 lg:size-4 top-1/2 translate -translate-y-1/2 absolute left-2 lg:left-3">
+      <div
+        class="relative inline-flex items-center self-center rounded-default border border-solid border-white text-Gray-300"
+      >
+        <svg
+          class="translate absolute left-2 top-1/2 size-3 -translate-y-1/2 lg:left-3 lg:size-4"
+        >
           <use href="/src/assets/sprite/icons.svg#global" />
         </svg>
 
         <label class="sr-only" for="combo-1">언어 선택</label>
-        <select class="bg-transparent appearance-none px-7 py-1 lg:px-10 lg:py-2" name="selectLanguage" id="combo-1">
+        <select
+          class="appearance-none bg-transparent px-7 py-1 lg:px-10 lg:py-2"
+          name="selectLanguage"
+          id="combo-1"
+        >
           <option value="korean">한국어</option>
           <option value="english">영어</option>
         </select>
 
-        <svg class="size-3 lg:size-4 absolute top-1/2 translate -translate-y-1/2 right-2 lg:right-3">
+        <svg
+          class="translate absolute right-2 top-1/2 size-3 -translate-y-1/2 lg:right-3 lg:size-4"
+        >
           <use href="/src/assets/sprite/icons.svg#triangle" />
         </svg>
       </div>
 
-      <a href="/" class="self-center inline-flex text-white bg-Red-500 px-5 py-1.5 lg:py-2.5 font-bold rounded-default text-xs lg:text-base">로그인</a>
+      <a
+        href="/"
+        class="inline-flex self-center rounded-default bg-Red-500 px-5 py-1.5 text-xs font-bold text-white lg:py-2.5 lg:text-base"
+        >로그인</a
+      >
     </header>
   </body>
 </html>
